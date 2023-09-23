@@ -1,0 +1,56 @@
+###############################################
+# command aliases
+###############################################
+# ls aliases
+alias l='ls -alh'
+alias ll='ls -lh'
+
+# vim
+# alias vi='vim'
+alias vi='nvim'
+
+# code-insiders
+alias codee='code-insiders'
+
+# bc (bc -l or bc; scale=3)
+alias bc='bc -l'
+
+# docker aliases
+alias cddd='cd ~/Downloads/works-local/docker'
+alias ddd='docker compose'
+alias dddu='docker compose up -d'
+alias dddd='docker compose down'
+alias ddds='docker compose start'
+alias dddss='docker compose stop'
+alias dddr='docker compose restart'
+
+# for fun
+alias ww='curl https://wttr.in'
+alias wwww="curl wttr.in/singapore"
+
+###############################################
+# moving directories
+###############################################
+alias cdd='cd ~/downloads'
+alias cdw='cd ~/downloads/works-local'
+alias cdp='cd ~/downloads/works-local/projects'
+alias cds='cd ~/downloads/works-local/sandbox'
+alias cdss='cd ~/downloads/works-local/sandbox/aws-related/summit-demo'
+alias cdpp='cd ~/downloads/works-local/sandbox/languages/py'
+alias cdtt='cd ~/downloads/works-local/sandbox/languages/ts'
+alias cdjs='cd ~/downloads/works-local/sandbox/languages/js'
+alias cdgo='cd ~/downloads/works-local/sandbox/languages/go'
+alias cdcc='cd ~/downloads/works-local/sandbox/languages/c'
+alias cdcp='cd ~/downloads/works-local/sandbox/languages/cpp'
+alias cdjv='cd ~/downloads/works-local/sandbox/languages/java'
+alias cdst='cd ~/downloads/works-local/sandbox/aws-related/terraform'
+alias cdsa='cd ~/downloads/works-local/sandbox/aws-related'
+alias cdkk='cd ~/downloads/works-local/sandbox/aws-related/cdk-works'
+#alias ccdk='cd ~/downloads/works-local/sandbox/aws-related/cdk'
+#alias tcdk='cd ~/downloads/works-local/sandbox/aws-related/cdk/ts-cdk'
+#alias pcdk='cd ~/downloads/works-local/sandbox/aws-related/cdk/py-cdk'
+#alias tfcdk='cd ~/downloads/works-local/sandbox/aws-related/cdk/cdktf'
+
+# tools in docker
+alias mmysql='docker exec -it mysql bash'
+alias rredis='docker exec -it redis bash'
