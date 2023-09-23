@@ -14,6 +14,8 @@ fi
 # commandline vi shortcut
 set -o vi
 
+export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
+
 ###############################################################3
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 ###############################################################3
