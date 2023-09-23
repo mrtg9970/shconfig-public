@@ -47,3 +47,21 @@ ulimit -n 65535
 export PATH="/home/linuxbrew/.linuxbrew/opt/node@18/bin:$PATH"
 export LDFLAGS="-L/home/linuxbrew/.linuxbrew/opt/node@18/lib"
 export CPPFLAGS="-I/home/linuxbrew/.linuxbrew/opt/node@18/include"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/ec2-user/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/ec2-user/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/ec2-user/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/ec2-user/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+conda config --set auto_activate_base false
+conda activate cf
