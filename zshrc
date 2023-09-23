@@ -43,3 +43,7 @@ export CLICOLOR=1
 # file descriptor limit
 ulimit -n 65535
 
+# Node 18 LTS - Sep 23, 2023
+export PATH="/home/linuxbrew/.linuxbrew/opt/node@18/bin:$PATH"
+export LDFLAGS="-L/home/linuxbrew/.linuxbrew/opt/node@18/lib"
+export CPPFLAGS="-I/home/linuxbrew/.linuxbrew/opt/node@18/include"
