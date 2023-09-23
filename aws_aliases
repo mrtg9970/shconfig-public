@@ -7,10 +7,10 @@ alias ll='ls -lh'
 
 # vim
 # alias vi='vim'
-alias vi='nvim'
+#alias vi='nvim'
 
 # code-insiders
-alias codee='code-insiders'
+#alias codee='code-insiders'
 
 # bc (bc -l or bc; scale=3)
 alias bc='bc -l'
