@@ -16,7 +16,7 @@ alias ll='ls -lh'
 alias bc='bc -l'
 
 # docker aliases
-alias cddd='cd ~/Downloads/works-local/docker'
+alias cddd='cd ~/sandbox/docker'
 alias ddd='docker compose'
 alias dddu='docker compose up -d'
 alias dddd='docker compose down'
